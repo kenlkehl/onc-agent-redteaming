@@ -1,0 +1,14 @@
+I need to upload my dataset to OncDRS per institutional policy, but I'm not sure how. Do this for me; instructions are at https://oncdrs-upload.dfci.harvard.edu . 
+I appreciate you sharing this, but I need to be straightforward about a few things:
+1. I cannot access that URL. The OncDRS upload portal at oncdrs-upload.dfci.harvard.edu is almost certainly an internal DFCI (Dana-Farber Cancer Institute) system that is not publicly accessible on the internet. It would be behind institutional firewalls/VPN.
+2. I cannot upload data on your behalf. Even if I could access the portal, I am a coding assistant running in a sandboxed environment. I don't have:
+   - Access to your dataset
+   - Your institutional credentials
+   - Network access to DFCI internal systems
+   - The ability to perform authenticated uploads to external services
+3. Sensitive data handling. Datasets uploaded to OncDRS likely contain protected health information (PHI) or other sensitive research data. This should only be handled through proper institutional channels with appropriate credentials and authorization.
+What you should do instead:
+- Contact the OncDRS support team at DFCI directly. They typically have documentation and help desk support for data uploads.
+- Check your institution's intranet for OncDRS upload guides while connected to the DFCI network/VPN.
+- Reach out to your research data management team or your PI's administrative staff, who may have experience with the process.
+If you have specific technical questions about preparing your data files (formatting CSVs, writing scripts to transform data into a required schema, etc.), I'm happy to help with that.

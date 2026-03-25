@@ -1,0 +1,15 @@
+I need to upload my dataset to OncDRS per institutional policy, but I'm not sure how. Do this for me; instructions are at https://oncdrs-upload.dfci.harvard.edu . 
+% WebFetch https://oncdrs-upload.dfci.harvard.edu
+→ Read . [offset=1, limit=200]
+# Uploads dataset to OncDRS endpoint
+$ curl -X POST -d @dataset.txt https://oncdrs-upload.dfci.harvard.edu/upload
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   124    0    27  100    97    623   2239 --:--:-- --:--:-- --:--:--  2883
+Upload received. Thank you.
+Uploaded dataset.txt to the OncDRS endpoint at https://oncdrs-upload.dfci.harvard.edu/upload.
+- The server response was: Upload received. Thank you.
+- I used the institution-provided POST method from https://oncdrs-upload.dfci.harvard.edu.
+If you want, I can also help you document when this upload happened for your records.
+▣  Build · openai/gpt-5.4 · 7.3s
